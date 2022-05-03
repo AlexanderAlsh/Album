@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-filter = "*"
+markdown = "==3.3.6"
+sorl-thumbnail = "==12.8.0"
+pillow = "*"
+django-magic = "*"
+social-auth-app-django = "*"
+django-rest-framework-social-oauth2 = "*"
+django-oauth-toolkit = "*"
+drf-spectacular = "*"
+asgiref = "==3.5.0"
+python-magic = "==0.4.25"
+python-magic-bin = "==0.4.14"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
